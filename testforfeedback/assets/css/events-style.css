@@ -1,0 +1,288 @@
+/*Carrosel*/
+/* Carousel container styles */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Carousel inner container styles */
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Carousel item styles */
+.carousel-item {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  /* Add this line */
+  transition: left 0.5s;
+  /* Add this line */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Carousel navigation styles */
+.carousel-nav {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1
+}
+
+.carousel-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background-color: var(--color-sky-mid);
+}
+
+.carousel-item.animate-out {
+  animation: fadeOut 0.5s;
+}
+
+
+.carousel-item.slide-in {
+  left: -100%;
+  /* Add this line */
+  animation: slideIn 0.5s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slideIn {
+  to {
+    left: 0;
+  }
+}
+
+/*-------------------------------------------------------------------*/
+.text-center1 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.line {
+  border-top: 15px solid var(--color-sky-mid);
+  border-radius: 15px;
+  width: 100%;
+  margin: 0 4%;
+}
+
+.title_text {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-weight: 1000;
+  margin: 20px 1%;
+  white-space: nowrap;
+  font-family: "Work Sans-Black", sans-serif;
+  letter-spacing: -3px;
+}
+
+.text1 {
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+  margin: 40px auto 70px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 1200px;
+  margin-bottom: 200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.image-box {
+  border: 3px solid var(--color-sky-mid);
+  border-radius: 20px;
+  width: 350px;
+  height: 610px;
+  position: relative;
+  padding: 30px;
+  margin: 15px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+
+}
+
+.image-box:hover {
+  background-color: var(--color-sky-mid);
+  transition: 0.5s;
+}
+
+.image-box:hover .im_Title,
+.image-box:hover .im_date,
+.image-box:hover .im_text {
+  color: white;
+  transition: 0.5s;
+}
+
+
+.image-box img {
+  border: 2px solid var(--color-sky-mid);
+  display: block;
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-box:hover img {
+  border: 2px solid white;
+}
+
+.external-events {
+  padding: 0 3rem;
+}
+
+.internal-events {
+  padding: 0 3rem;
+}
+
+.im_Title,
+.im_date {
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+
+}
+
+.im_Title h5 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.image-box .im_date {
+  margin-bottom: 10px;
+}
+
+.im_Title,
+.im_date,
+.im_text {
+  color: #429EBD;
+  font-size: 18px;
+  position: relative;
+  top: 300px;
+  text-align: justify;
+}
+
+.im_text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center2 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .title_text {
+    font-size: 32px;
+
+  }
+
+  .line {
+    border-top: 12px solid var(--color-sky-mid);
+  }
+
+  .text1 {
+    font-size: 16px;
+    margin: 0px auto 0px;
+    margin-bottom: 20px;
+  }
+
+  .text-center1 {
+    height: 80px;
+  }
+}
+
+@media (max-width: 460px) {
+  .title_text {
+    font-size: 24px;
+    margin: 0px 1%;
+    font-weight: 800;
+  }
+
+  .line {
+    border-top: 10px solid var(--color-sky-mid);
+  }
+
+  .text1 {
+    font-size: 12px;
+    margin: 0px auto 0px;
+    margin-bottom: 10px;
+  }
+
+  .text-center1 {
+    height: 50px;
+  }
+
+  .image-box {
+    width: 210px;
+    height: 366px;
+    padding: 15px;
+  }
+
+  .im_Title h5 {
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .image-box .im_date {
+    margin-bottom: 10px;
+  }
+
+  .im_Title,
+  .im_date,
+  .im_text {
+    font-size: 10px;
+    top: 190px;
+  }
+
+}

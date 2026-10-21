@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="assets/imagens/icon/logomark_best.png">
+
+    <!-- Import Styles -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/events-style.css" rel="stylesheet">
+
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <a id="header"></a>
+    <header class="header">
+      <a class="logo-header" href="index.html">
+        <img src="assets/imagens/best-logo.png" alt="BEST-Coimbra" id="header_logo" />
+      </a>
+      <nav>
+        <div class="options-header">
+          <div class="lado-direito">
+            <div class="options">
+              <a class="nav-option" href="index_en.html">Home</a>
+              <a class="nav-option" href="events_en.html">Events</a>
+              <a class="nav-option" href="partners_en.html">Companies</a>
+              <a class="nav-option" href="about_us_en.html">About us</a>
+            </div>
+            <div class="change-language" onclick="showLanguageOptions()">
+              <img src="assets/imagens/header/Flag_of_the_United_Kingdom.png" alt="Idioma" class="language_icon">
+              <span class="language_text">ENG</span>
+              <span class="arrow_down"><img src="assets/imagens/header/arrow.png" alt="arrow"></span>
+              <div id="languageOptions" class="language-options" style="display: none;">
+                <img src="assets/imagens/header/pt.png" alt="Idioma" class="language_icon">
+                <a href="events.html">PT</a>
+              </div>
+            </div>
+  
+            <a class="botao_apply" href="join_us_en.html">
+              <button>Join Us</button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!----------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Carrossel de fotos-->
+    <section class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item" id="img1">
+                <img src="assets/imagens/events/Carrosel1.jpg" alt="Imagem1">
+            </div>
+            <div class="carousel-item" id="img2">
+                <img src="assets/imagens/events/Eventos2.JPG" alt="Imagem2">
+            </div>
+            <div class="carousel-item" id="img3">
+                <img src="assets/imagens/events/Eventos3.JPG" alt="Imagem3">
+            </div>
+            <div class="carousel-item" id="img4">
+                <img src="assets/imagens/events/Events4.jpg" alt="Imagem4">
+            </div>
+            <div class="carousel-item" id="img5">
+                <img src="assets/imagens/events/Eventos5.JPG" alt="Imagem5">
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <span class="carousel-dot" data-index="0"></span>
+            <span class="carousel-dot" data-index="1"></span>
+            <span class="carousel-dot" data-index="2"></span>
+            <span class="carousel-dot" data-index="3"></span>
+            <span class="carousel-dot" data-index="4"></span>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="external-events">
+        <div class="external-events-title">
+            <div class="text-center1">
+                <div class="line"></div>
+                <div class="title_text">External Events</div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="external-events-text">
+            <p class="text1">Our External Events are open to all students of the Faculty of Sciences and Technology of
+                the
+                University of Coimbra. With this type of events we seek to promote students through national and
+                international opportunities.</p>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <img src="assets/imagens/events/Carlos.png" alt="Imagem6">
+                <div class="im_Title">
+                    <h5>BEST Engineering Week</h5>
+                </div>
+                <div class="im_date">27th to 30th November</div>
+                <div class="im_text">Three days where we bring to Coimbra a chance of networking between students and
+                    companies, through company stands, workshops and many more activities.</div>
+            </div>
+            <div class="image-box">
+                <img src="assets/imagens/events/Crazy.png" alt="Imagem7">
+                <div class="im_Title">
+                    <h5>RESET</h5>
+                </div>
+                <div class="im_date">2th to 3th March</div>
+                <div class="im_text">We challenge around 80 students to combine their hard skills and their creativity
+                    to create, in 24 hours, an innovative solution to a real problem proposed by a company.</div>
+            </div>
+            <div class="image-box">
+                <img src="assets/imagens/events/Quadro.png" alt="Imagem8">
+                <div class="im_Title">
+                    <h5>BEST Course</h5>
+                </div>
+                <div class="im_date">17th to 27th July</div>
+                <div class="im_text">BEST organizes international courses where international students of technology get
+                    the chance to complement their knowledge in different fields of study. BEST Coimbra organizes a
+                    course in our city, where we welcome around 24 students to our University.</div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <section class="internal-events">
+        <div class="internal-events-title">
+            <div class="text-center1">
+                <div class="line"></div>
+                <div class="title_text">Internal Events</div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="internal-events-text">
+            <p class="text1">Events, directed for BEST members, that aim to aid member's self development and improve
+                networking between members.</p>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <img src="assets/imagens/events/Pavi.png" alt="Imagem9">
+                <div class="im_Title">
+                    <h5>Motivational Weekend</h5>
+                </div>
+                <div class="im_text">Every semester we organise a weekend full of learning opportunities, soft skill
+                    development and bonding time. This event has the purpose of creating a better network between the
+                    members and introduce new recruits to the BEST spirit.</div>
+            </div>
+            <div class="image-box">
+                <img src="assets/imagens/events/Quebrada.png" alt="Imagem10">
+                <div class="im_Title">
+                    <h5>Training Weekend</h5>
+                </div>
+                <div class="im_text">One of our objectives as an organisation is to promote the evolution of our
+                    members. To
+                    better development of our members, we organise a weekend filled with training sessions on soft and
+                    hard
+                    skills facilitated by certified members.</div>
+            </div>
+            <div class="image-box">
+                <img src="assets/imagens/events/IE.png" alt="Imagem11">
+                <div class="im_Title">
+                    <h5>International Events</h5>
+                </div>
+                <div class="im_text">From sharing and comparing our working methods with other local groups in Regional
+                    Meetings, to learning about different cultures in Cultural Exchanges, the opportunities for BEST
+                    members
+                    at an international level are endless and extremely enriching. </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <!-- ==================== FOOTER ======================= -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-up">
+            <div class="footer-up-left">
+              <img src="assets/imagens/best-logo.png" alt="BEST">
+            </div>
+            <div class="footer-up-right">
+              <div class="footer-contacts">
+                <div class="contacts-bold">
+                  <a href="">Events</a>
+                </div>
+                <ul>
+                  <li><a href="events.html">Internal Events</a></li>
+                  <li><a href="events.html">External Events</a></li>
+                </ul>
+              </div>
+              <div class="footer-contacts">
+                <div class="contacts-bold">
+                  <a href="partners.html">Companies</a>
+                </div>
+                <ul>
+                  <li><a href="partners.html">Partners</a></li>
+                  <li><a href="">Our Services</a></li>
+                </ul>
+              </div>
+              <div class="footer-contacts">
+                <div class="contacts-bold">
+                  <a href="">About Us</a>
+                </div>
+                <ul>
+                  <li><a href="about_us.html">Who we are</a></li>
+                  <li><a href="about_us.html">Our Team</a></li>
+                </ul>
+              </div>
+              <div class="footer-contacts">
+                <button>Contact Us</button>
+              </div>
+            </div>
+          </div>
+          <div class="footer-line"></div>
+          <div class="footer-down">
+            <div class="footer-down-left">
+              <p>coimbra@best-eu.org</p>
+            </div>
+            <div class="footer-down-center">
+              <p>© 2024 BEST Coimbra. All rights reserved</p>
+            </div>
+            <div class="footer-down-right">
+              <p>Follow us:</p>
+              <div class="footer-down-right-net">
+                <a href="https://www.facebook.com/BESTCoimbra" target="_blank"><img
+                    src="assets/imagens/icon/Facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/bestcoimbra/" target="_blank"><img
+                    src="assets/imagens/icon/Instagram.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/company/best-coimbra/" target="_blank"><img
+                    src="assets/imagens/icon/Linkdin.png" alt="Linkdin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="assets/js/events.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

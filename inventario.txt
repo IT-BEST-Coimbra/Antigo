@@ -1,0 +1,654 @@
+Folder PATH listing
+Volume serial number is 3ACA-DAD9
+C:.
+|   about_us.html
+|   about_us_en.html
+|   events.html
+|   events_en.html
+|   index.html
+|   index_en.html
+|   inventario.txt
+|   join_us.html
+|   join_us_en.html
+|   partners.html
+|   partners_en.html
+|   
++---assets
+|   +---css
+|   |       about_us.css
+|   |       events-style.css
+|   |       home-page-style.css
+|   |       join-us-style.css
+|   |       partners-style.css
+|   |       styles.css
+|   |       
+|   +---imagens
+|   |   |   Ana Malva 1.png
+|   |   |   background-home-page.png
+|   |   |   best-logo.png
+|   |   |   BodyE.png
+|   |   |   Crespo 1.png
+|   |   |   eu 1.png
+|   |   |   Frame33.png
+|   |   |   Gambão.png
+|   |   |   Group 104.png
+|   |   |   Group 57.png
+|   |   |   Group 58.png
+|   |   |   Group 59.png
+|   |   |   Group 60.png
+|   |   |   Group103.png
+|   |   |   home-page-2-box.png
+|   |   |   home-page-2.png
+|   |   |   home-page-3.jpg
+|   |   |   home-page-4.png
+|   |   |   home-page-5.jpg
+|   |   |   home-page-6.jpg
+|   |   |   image-home-page.png
+|   |   |   IMG_7529_Original 1.png
+|   |   |   José Gaspar 1.png
+|   |   |   Mél 1.png
+|   |   |   Patrícia 1.png
+|   |   |   Paulo Meira - jpg 1.png
+|   |   |   TIAGO NARCISO 1.png
+|   |   |   Ticha 1.png
+|   |   |   Tower_of_Universidade_de_Coimbra_(2) 1.png
+|   |   |   
+|   |   +---events
+|   |   |       Carlos.png
+|   |   |       Carrosel1.jpg
+|   |   |       Crazy.png
+|   |   |       Eventos2.JPG
+|   |   |       Eventos3.JPG
+|   |   |       Eventos5.JPG
+|   |   |       Events4.jpg
+|   |   |       IE.png
+|   |   |       Pavi.png
+|   |   |       Quadro.png
+|   |   |       Quebrada.png
+|   |   |       
+|   |   +---Fotos
+|   |   |       CAMARA.png
+|   |   |       Carrocel1.jpg
+|   |   |       DEEC.png
+|   |   |       dei_logo_raster_black_1 1.png
+|   |   |       fctuc_preto 1.png
+|   |   |       Imagem_1.png
+|   |   |       imagem_22.png
+|   |   |       Imagem_3.png
+|   |   |       IMG_2350 1.jpg
+|   |   |       IPDJ.png
+|   |   |       laranja.png
+|   |   |       onda.jpg
+|   |   |       
+|   |   +---fotos-join
+|   |   |       access-foto-card-1.png
+|   |   |       access-foto-card-2.png
+|   |   |       access-foto-card-3.png
+|   |   |       europe.jpg
+|   |   |       hands-join-us.jpg
+|   |   |       home-foto.png
+|   |   |       Image1.png
+|   |   |       Image2.png
+|   |   |       Image3.png
+|   |   |       pin_map.png
+|   |   |       
+|   |   +---fotos-join-europe
+|   |   |       Athenas.jpg
+|   |   |       Bélgica.jpg
+|   |   |       Grenoble.jpg
+|   |   |       Torino.jpg
+|   |   |       Valencia.jpg
+|   |   |       
+|   |   +---header
+|   |   |       arrow.png
+|   |   |       Flag_of_the_United_Kingdom.png
+|   |   |       pt.png
+|   |   |       
+|   |   +---icon
+|   |   |       Facebook.png
+|   |   |       Instagram.png
+|   |   |       Linkdin.png
+|   |   |       logomark_best.png
+|   |   |       
+|   |   +---Logos
+|   |   |       Accenture_logo 1.png
+|   |   |       Afaplan.png
+|   |   |       BorderInnovation 1.png
+|   |   |       Costa Nova industria-editavel_Prancheta 1 1.png
+|   |   |       Critical.png
+|   |   |       Dvene.png
+|   |   |       FFonseca.png
+|   |   |       Finsa.png
+|   |   |       KPMG_White 1.png
+|   |   |       Logo Helukabel 1.png
+|   |   |       Logo Noesis_Original (1) 1.png
+|   |   |       LogosIPN-01 1.png
+|   |   |       logotipo_penaaventura 1.png
+|   |   |       Logo´tipo PHIVE 1.png
+|   |   |       ME-cores 1.png
+|   |   |       Multivision.png
+|   |   |       odisseias.png
+|   |   |       Olympus.png
+|   |   |       outsystems.png
+|   |   |       QF24 1.png
+|   |   |       Redbull.png
+|   |   |       Rei dos frangos.png
+|   |   |       streak_logo_geral 1.png
+|   |   |       The LOOP.png
+|   |   |       Wild Life.png
+|   |   |       
+|   |   \---team
+|   |           Alexandre_Rodrigues.jpeg
+|   |           Ana_Malva.jpeg
+|   |           Filipa_Mota.jpeg
+|   |           Helena.png
+|   |           Joana.jpeg
+|   |           Karva.jpeg
+|   |           Mariana.jpeg
+|   |           Mel.jpeg
+|   |           Teo.jpg
+|   |           
+|   \---js
+|           events.js
+|           join-us.js
+|           Partners.js
+|           script.js
+|           
++---be-it
+|   |   art1.svg
+|   |   art2.svg
+|   |   art3.svg
+|   |   best-logo.png
+|   |   dei1.jpg
+|   |   dei2.jpg
+|   |   favicon.ico
+|   |   footer.png
+|   |   hackathon_logo.svg
+|   |   index.html
+|   |   logo.png
+|   |   loop_casa.webp
+|   |   orgs.png
+|   |   pc.jpg
+|   |   
+|   +---images
+|   |       icon-arrow-down.svg
+|   |       
+|   +---logos
+|   |       Accenture_logo.png
+|   |       deec.png
+|   |       eat-pure.svg
+|   |       logos_institucionais.svg
+|   |       LOGO_IPDJ.png
+|   |       loop.svg
+|   |       redbull.png
+|   |       sabrosa.jpg
+|   |       TNBI.png
+|   |       
+|   +---social
+|   |       fb.png
+|   |       insta.png
+|   |       linkedin.png
+|   |       
+|   \---_next
+|       \---static
+|           +---chunks
+|           |   |   framework-0f397528c01bc177.js
+|           |   |   main-5cebf592faf0463a.js
+|           |   |   polyfills-c67a75d1b6f99dc8.js
+|           |   |   webpack-2369ea09e775031e.js
+|           |   |   
+|           |   \---pages
+|           |           index-e4b94dd0c194023b.js
+|           |           _app-e0fb27dd9c358745.js
+|           |           
+|           +---css
+|           |       d3fa303ff1cfa9ce.css
+|           |       da9b73d56d87cf2c.css
+|           |       
+|           \---TGxJDvTs7y5L5ksB20gxU
+|                   _buildManifest.js
+|                   _ssgManifest.js
+|                   
++---BESTCourse
+|   |   a-space.regular.otf
+|   |   best-logo.png
+|   |   index.html
+|   |   
+|   \---assets
+|           aboutourgalaxy1-VLLJnyDf.webp
+|           aboutourgalaxy2-NYHkerH1.webp
+|           aboutOurMission-CnWkd-m0.webp
+|           Barroso-DZ4BKr3n.webp
+|           best-logo-BSMYmGiJ.png
+|           BEST_Course_LOGO-DSaxp2-7.png
+|           Camara_logo-C_-aUiaa.png
+|           Carolina-9un_ZXZ-.webp
+|           Catarina-CRNfDLRI.webp
+|           DEEC.uc-branco-CjWLPlBB.png
+|           Diogo-gQ8hrqj6.webp
+|           email-CYopcwiR.png
+|           FCTUC_Logo-DQj9znCh.png
+|           Filipa-Bi7nSYQN.webp
+|           galaxy-1_jy0le6.png
+|           Gui-C1CzZ7Cx.webp
+|           Imagem_fundo-Chnkd457.webp
+|           index-DnsIu6n_.css
+|           index-n6AdRrq0.js
+|           joana-BbEYUdGN.webp
+|           Joao-DefYgzTP.webp
+|           Leonor-BsBYnX3P.webp
+|           linkedin-up9Jzdnx.png
+|           LOGO IPDJ cor Horizontal--qrSqj-O.png
+|           LUA-0d90z6VN.webp
+|           Melissa-CpRYZlLo.webp
+|           planeta 2-x3mAH2ZQ.png
+|           planeta-C_YOtkDL.png
+|           PT_Space-T1qFQ73m.png
+|           shedule-DPNzsClw.png
+|           Sofia-BfYdfTj3.webp
+|           teste-BioBqywK.png
+|           
++---components
+|       header.html
+|       
++---demo
+|   |   .replit
+|   |   
+|   +---.cache
+|   |   \---replit
+|   |       |   modules.stamp
+|   |       |   __replit_disk_meta.json
+|   |       |   
+|   |       +---modules
+|   |       \---nix
+|   |               env.json
+|   |               
+|   +---.config
+|   |   \---configstore
+|   |           update-notifier-npm.json
+|   |           update-notifier-npm.json.2701252402
+|   |           
+|   \---.vscode
+|           settings.json
+|           
++---EBEC
+|       index.html
+|       
++---EBEC23
+|   |   index.html
+|   |   index_en.html
+|   |   README.md
+|   |   
+|   +---css
+|   |       bootstrap.min.css
+|   |       bootstrap.min.css.map
+|   |       style.css
+|   |       
+|   +---img
+|   |   +---bandeiras
+|   |   |       portugal.png
+|   |   |       reinoUnido.png
+|   |   |       
+|   |   +---best
+|   |   |       fotobest_2.jpg
+|   |   |       
+|   |   +---categorias
+|   |   |       3_CS.jpg
+|   |   |       3_ID_C_P.png
+|   |   |       
+|   |   +---Equipa
+|   |   |       AngelaCalhau.jpg
+|   |   |       Bea Alves.jpg
+|   |   |       Bea Pinto.png
+|   |   |       Clara Selas_2.jpg
+|   |   |       Eva Santos.jpg
+|   |   |       Guilherme Ribeiro.jpg
+|   |   |       Joana Matos.jpg
+|   |   |       Narciso.jpg
+|   |   |       Paulo Meira_2.jpg
+|   |   |       Teresinha Iglésias_2.jpg
+|   |   |       
+|   |   +---icons
+|   |   |       facebook.png
+|   |   |       instagram.png
+|   |   |       linkedin-preta.png
+|   |   |       linkedin.png
+|   |   |       PyramidBottom.png
+|   |   |       PyramidTop.png
+|   |   |       
+|   |   +---logos
+|   |   |       background-schedule.png
+|   |   |       BEST_Coimbra Logo.svg
+|   |   |       EBEC_Challenge_National&Regional_laranja-01.png
+|   |   |       EBEC_Cogwheel.svg
+|   |   |       EBEC_Original.svg
+|   |   |       home-page.jpg
+|   |   |       
+|   |   +---photos
+|   |   |       faq-photo.png
+|   |   |       
+|   |   \---schedule
+|   |           schedule.png
+|   |           
+|   \---js
+|           contador.js
+|           script.js
+|           vanilla.js
+|           
++---RESET
+|   |   index.html
+|   |   README.md
+|   |   
+|   +---.vscode
+|   |       settings.json
+|   |       
+|   +---css
+|   |       bootstrap.min.css
+|   |       bootstrap.min.css.map
+|   |       style.css
+|   |       
+|   +---img
+|   |   |   tomadadeposse.jfif
+|   |   |   
+|   |   +---background
+|   |   |       Image-left-home-page.png
+|   |   |       post-template 2.png
+|   |   |       
+|   |   +---empresas
+|   |   |   |   CMYK_Versao Vertical Jade - Sem Assinatura (1).jpg
+|   |   |   |   CrossJoin.png
+|   |   |   |   Digma04PRETOBOLD.png
+|   |   |   |   e9b97b77-1.png
+|   |   |   |   ef_blue (1).jpg
+|   |   |   |   JumpYard_Logotype_Secondary_IDRed_512px.png
+|   |   |   |   LOGO MONDECO png.png
+|   |   |   |   Logo preto Apollotec.png
+|   |   |   |   logofic (3).png
+|   |   |   |   LogoRNESecundario_CoresRGB.png
+|   |   |   |   Logotipo-AO.jpg
+|   |   |   |   paodelo.jpeg
+|   |   |   |   SimoldesGrupo.png
+|   |   |   |   Transserrano (1).png
+|   |   |   |   
+|   |   |   \---goods
+|   |   |       |   cinema city logo_azul.png
+|   |   |       |   diver.jpeg
+|   |   |       |   dontaquito.jpeg
+|   |   |       |   leya_cbsop2rr_z2i61iwv.jpg
+|   |   |       |   Logo Livraria Bertrand.png
+|   |   |       |   Logotipo novo (jpg).jpg
+|   |   |       |   logotipo_penaaventura.png
+|   |   |       |   Na Tour Way Logo 2025.png
+|   |   |       |   Solinca.jfif
+|   |   |       |   Transserrano.png
+|   |   |       |   
+|   |   |       +---food
+|   |   |       |       Fruut_logo_EN_vermelho.png
+|   |   |       |       LOGO Paladin .png
+|   |   |       |       Redbull.jpg
+|   |   |       |       Rei dos Frangos.jpg
+|   |   |       |       Saborosa Mini Bites.jpg
+|   |   |       |       
+|   |   |       \---premio
+|   |   |               Lenovo Logo.png
+|   |   |               logo-hdfw.jpg
+|   |   |               logotipo_penaaventura.png
+|   |   |               Logo´tipo PHIVE.jpeg
+|   |   |               odisseias_logo_rgb_-_3_.png
+|   |   |               QF24.PNG
+|   |   |               
+|   |   +---equipa
+|   |   |       Alexandre_Rodrigues.png
+|   |   |       Ana_Leonor.png
+|   |   |       Andre_Farinha.png
+|   |   |       Andre_Silva.png
+|   |   |       Diogo_Henriques.png
+|   |   |       Duarte_Pereira.png
+|   |   |       Gabriel.png
+|   |   |       Goncalo_Torres.png
+|   |   |       Guilherme_Ribeiro.png
+|   |   |       Hugo_Cristao.png
+|   |   |       Isaque_Capra.png
+|   |   |       Joao_Barraca.jpg
+|   |   |       Leonardo_Sobral.png
+|   |   |       Luisa_Barchfeld.png
+|   |   |       Maria_Brito.png
+|   |   |       Maria_Carolina.png
+|   |   |       Maria_Silva.png
+|   |   |       Paulo_Vilar.png
+|   |   |       Rabia.png
+|   |   |       Rodrigo_Ceia.png
+|   |   |       Sara_Belo.png
+|   |   |       Teodoro_Marques.png
+|   |   |       Tiago_Esteves.png
+|   |   |       Tiago_Goncalves.png
+|   |   |       Tomas_Folques.png
+|   |   |       unknown.jpg
+|   |   |       
+|   |   +---fotos
+|   |   |       Group 34.jpg
+|   |   |       hackaton.jpg
+|   |   |       o que e a Reset.jpg
+|   |   |       SAM_3162.jpg
+|   |   |       Sobre BEST Coimbra2.jpg
+|   |   |       tomada de posse antiga.jpg
+|   |   |       
+|   |   +---horario
+|   |   |       Horario.jpg
+|   |   |       
+|   |   +---icons
+|   |   |       facebook.png
+|   |   |       instagram.png
+|   |   |       linkedin.png
+|   |   |       
+|   |   +---infos
+|   |   |       Poli´tica de Privacidade_Reset_2026.pdf
+|   |   |       Regulamento Reset 2026.pdf
+|   |   |       Survival Guide.pdf
+|   |   |       
+|   |   +---logos
+|   |   |       image 18.png
+|   |   |       logo-best-vermelho.svg
+|   |   |       logoArtboard_184x.png
+|   |   |       logoArtboard_204x.png
+|   |   |       
+|   |   \---parceiros
+|   |           a2ffbf6d-c6f0-4ef3-a620-3985c671b016.jpeg
+|   |           CMC horizontal.png
+|   |           DEEC cores.png
+|   |           dei_logo_raster_cyan_3-1.png
+|   |           FCTUC azul horizontal.png
+|   |           IPDJ cor horizontal.png
+|   |           OE regia~o centro.png
+|   |           sasuc.png
+|   |           
+|   \---js
+|           contador.js
+|           script.js
+|           
++---scripts
+|       changePage.js
+|       count.js
+|       email.js
+|       footer.js
+|       header.js
+|       preload.js
+|       removeBG.js
+|       scroll.js
+|       slider.js
+|       slideshow.js
+|       ticker.js
+|       
++---src
+|   \---assets
+|       \---imagens
+|           \---Fotos
+|                   imagem_22.png
+|                   
++---stats
++---styles
+|       footer.css
+|       header.css
+|       home.css
+|       slideshow.css
+|       
+\---testforfeedback
+    |   about_us.html
+    |   about_us_en.html
+    |   events.html
+    |   events_en.html
+    |   index.html
+    |   index_en.html
+    |   join_us.html
+    |   join_us_en.html
+    |   partners.html
+    |   partners_en.html
+    |   
+    +---assets
+    |   +---css
+    |   |       about_us.css
+    |   |       events-style.css
+    |   |       home-page-style.css
+    |   |       join-us-style.css
+    |   |       partners-style.css
+    |   |       styles.css
+    |   |       
+    |   +---imagens
+    |   |   |   Ana Malva 1.png
+    |   |   |   background-home-page.png
+    |   |   |   best-logo.png
+    |   |   |   BodyE.png
+    |   |   |   Crespo 1.png
+    |   |   |   eu 1.png
+    |   |   |   Frame33.png
+    |   |   |   Gambão.png
+    |   |   |   Group 104.png
+    |   |   |   Group 57.png
+    |   |   |   Group 58.png
+    |   |   |   Group 59.png
+    |   |   |   Group 60.png
+    |   |   |   Group103.png
+    |   |   |   home-page-2-box.png
+    |   |   |   home-page-2.png
+    |   |   |   home-page-3.jpg
+    |   |   |   home-page-4.png
+    |   |   |   home-page-5.jpg
+    |   |   |   home-page-6.jpg
+    |   |   |   image-home-page.png
+    |   |   |   IMG_7529_Original 1.png
+    |   |   |   José Gaspar 1.png
+    |   |   |   Mél 1.png
+    |   |   |   Patrícia 1.png
+    |   |   |   Paulo Meira - jpg 1.png
+    |   |   |   TIAGO NARCISO 1.png
+    |   |   |   Ticha 1.png
+    |   |   |   Tower_of_Universidade_de_Coimbra_(2) 1.png
+    |   |   |   
+    |   |   +---events
+    |   |   |       Carlos.png
+    |   |   |       Carrosel1.jpg
+    |   |   |       Crazy.png
+    |   |   |       Eventos2.JPG
+    |   |   |       Eventos3.JPG
+    |   |   |       Eventos5.JPG
+    |   |   |       Events4.jpg
+    |   |   |       IE.png
+    |   |   |       Pavi.png
+    |   |   |       Quadro.png
+    |   |   |       Quebrada.png
+    |   |   |       
+    |   |   +---Fotos
+    |   |   |       CAMARA.png
+    |   |   |       Carrocel1.jpg
+    |   |   |       DEEC.png
+    |   |   |       dei_logo_raster_black_1 1.png
+    |   |   |       fctuc_preto 1.png
+    |   |   |       Imagem_1.png
+    |   |   |       imagem_22.png
+    |   |   |       Imagem_3.png
+    |   |   |       IMG_2350 1.jpg
+    |   |   |       IPDJ.png
+    |   |   |       laranja.png
+    |   |   |       onda.jpg
+    |   |   |       
+    |   |   +---fotos-join
+    |   |   |       access-foto-card-1.png
+    |   |   |       access-foto-card-2.png
+    |   |   |       access-foto-card-3.png
+    |   |   |       europe.jpg
+    |   |   |       hands-join-us.jpg
+    |   |   |       home-foto.png
+    |   |   |       Image1.png
+    |   |   |       Image2.png
+    |   |   |       Image3.png
+    |   |   |       pin_map.png
+    |   |   |       
+    |   |   +---fotos-join-europe
+    |   |   |       Athenas.jpg
+    |   |   |       Bélgica.jpg
+    |   |   |       Grenoble.jpg
+    |   |   |       Torino.jpg
+    |   |   |       Valencia.jpg
+    |   |   |       
+    |   |   +---header
+    |   |   |       arrow.png
+    |   |   |       Flag_of_the_United_Kingdom.png
+    |   |   |       pt.png
+    |   |   |       
+    |   |   +---icon
+    |   |   |       Facebook.png
+    |   |   |       Instagram.png
+    |   |   |       Linkdin.png
+    |   |   |       logomark_best.png
+    |   |   |       
+    |   |   +---Logos
+    |   |   |       Accenture_logo 1.png
+    |   |   |       Afaplan.png
+    |   |   |       BorderInnovation 1.png
+    |   |   |       Costa Nova industria-editavel_Prancheta 1 1.png
+    |   |   |       Critical.png
+    |   |   |       Dvene.png
+    |   |   |       FFonseca.png
+    |   |   |       Finsa.png
+    |   |   |       KPMG_White 1.png
+    |   |   |       Logo Helukabel 1.png
+    |   |   |       Logo Noesis_Original (1) 1.png
+    |   |   |       LogosIPN-01 1.png
+    |   |   |       logotipo_penaaventura 1.png
+    |   |   |       Logo´tipo PHIVE 1.png
+    |   |   |       ME-cores 1.png
+    |   |   |       Multivision.png
+    |   |   |       odisseias.png
+    |   |   |       Olympus.png
+    |   |   |       outsystems.png
+    |   |   |       QF24 1.png
+    |   |   |       Redbull.png
+    |   |   |       Rei dos frangos.png
+    |   |   |       streak_logo_geral 1.png
+    |   |   |       The LOOP.png
+    |   |   |       Wild Life.png
+    |   |   |       
+    |   |   \---team
+    |   |           Carlos.png
+    |   |           Gambão.png
+    |   |           Gaspar.png
+    |   |           Helena.png
+    |   |           Portrait_of_André_Silva.jpeg
+    |   |           Portrait_of_Bruno_Pires.jpeg
+    |   |           Portrait_of_Carolina_Crespo.jpeg
+    |   |           Portrait_of_Gonçalo_Ferraz.jpeg
+    |   |           Portrait_of_José_Matos.jpeg
+    |   |           Portrait_of_Rodrigo_Borges.jpeg
+    |   |           
+    |   \---js
+    |           events.js
+    |           join-us.js
+    |           Partners.js
+    |           script.js
+    |           
+    \---src
+        \---assets
+            \---imagens
+                \---Fotos
+                        imagem_22.png
+                        

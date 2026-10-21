@@ -1,0 +1,595 @@
+/*  ======= START =======  */
+
+body {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    padding-top: 3rem;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+h1,
+h2 {
+    font-family: var(--fonte-titulos);
+}
+
+h3,
+h4,
+h5 {
+    font-family: var(--fonte-destaque);
+}
+
+p {
+    font-family: var(--fonte-padrao);
+}
+
+/* ======================= */
+
+.join-us-home-front {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.join-us-home {
+    display: flex;
+    font-family: var(--fonte-titulos);
+    background: linear-gradient(to top, #ffffff96, #ffffff);
+}
+
+.join-us-background {
+    background-image: url("../imagens/fotos-join/hands-join-us.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.join-us-home .join-us-home-left {
+    width: 35%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.join-us-home .join-us-home-title {
+    margin: 30px 0;
+    color: #053F5C;
+    padding: 45px 150px 45px 35px;
+    width: max-content;
+    background: linear-gradient(to right, #1d6a89c5, #b3f1fe00);
+}
+
+.join-us-home .join-us-home-title h1 {
+    font-family: var(--fonte-titulos);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.join-us-home-button {
+    font-family: var(--fonte-padrao);
+    width: max-content;
+    margin: 30px 0 50px 30px;
+    padding: 10px 100px 10px 20px;
+    border: none;
+}
+
+.join-us-home-button h4 {
+    font-family: var(--fonte-titulos);
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 4px 4px 4px #00000011;
+}
+
+.join-us-home-button p {
+    font-family: var(--fonte-destaque);
+    font-size: 19px;
+    font-weight: 300;
+    margin-top: 2px;
+    text-shadow: 4px 4px 4px #00000011;
+}
+
+.join-us-home-button button {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px 34px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--color-sunset-orange);
+}
+
+.join-us-home .join-us-home-right {
+    width: 65%;
+    position: relative;
+}
+
+.join-us-home .join-us-home-right img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .join-us-home .join-us-home-left {
+        display: block;
+
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .join-us-home {
+        display: block;
+    }
+
+    .join-us-home .join-us-home-left {
+        width: 100%;
+    }
+
+    .join-us-home .join-us-home-right {
+        width: 100%;
+    }
+
+    .join-us-home .join-us-home-right img {
+        width: 400px;
+    }
+}
+
+/* =============== Start Sections Styles =============== */
+
+.join-us-advantages,
+.join-us-need-invest,
+.join-us-recruitment-process {
+    font-family: var(--fonte-padrao);
+    padding: 0 100px;
+    max-width: 1250px;
+    margin: 5rem auto;
+    display: flex;
+}
+
+.join-us-advantages h1,
+.join-us-need-invest h1,
+.join-us-recruitment-process h1 {
+    font-family: var(--fonte-titulos);
+    margin-bottom: 35px;
+}
+
+.join-us-block-div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+}
+
+.join-us-block-div-img {
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.join-us-block-div-img img {
+    height: 250px;
+    width: auto;
+    margin: 0;
+}
+
+.join-us-subtitle-left .join-us-block-div {
+    padding-right: 50px;
+}
+
+.join-us-subtitle-right .join-us-block-div {
+    text-align: end;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .join-us-block-div {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .join-us-advantages,
+    .join-us-need-invest,
+    .join-us-recruitment-process {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .join-us-block-div {
+        width: 100%;
+    }
+
+    .join-us-block-div-img {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .join-us-subtitle-left .join-us-block-div {
+        padding-right: 0;
+    }
+
+    .join-us-subtitle-right .join-us-block-div {
+        text-align: start;
+        padding-left: 0;
+    }
+
+    .join-us-subtitle-right .join-us-block-div-img {
+        order: 2;
+    }
+
+    .join-us-subtitle-right .join-us-block-div {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .join-us-advantages,
+    .join-us-need-invest,
+    .join-us-recruitment-process {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .join-us-advantages,
+    .join-us-need-invest,
+    .join-us-recruitment-process {
+        margin: 1rem auto;
+        padding: 0 2rem;
+    }
+
+    .join-us-advantages h1,
+    .join-us-need-invest h1,
+    .join-us-recruitment-process h1 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .join-us-advantages p,
+    .join-us-need-invest p,
+    .join-us-recruitment-process p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .join-us-block-div-img {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .join-us-block-div-img img {
+        height: 200px;
+    }
+}
+
+/* =============== Start Section Access =============== */
+.join-us-access h1 {
+    text-align: center;
+}
+
+/* =============== Start Section Cards =============== */
+.join-us-access {
+    padding: 20px;
+    text-align: center;
+}
+
+.join-us-block-div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 1000px;
+    margin: 3rem auto;
+}
+
+.join-us-block-div-cards .join-us-card {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: 315px;
+    border: solid 1px #053F5C;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-us-block-div-cards .join-us-card:hover {
+    background-color: var(--color-water-light);
+    border: solid 1px var(--color-water-light);
+}
+
+.join-us-block-div-cards .join-us-card img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: solid 2px var(--color-ocean-deep);
+    object-fit: cover;
+}
+
+.join-us-block-div-cards .join-us-card h3 {
+    font-family: var(--fonte-destaque);
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.join-us-block-div-cards .join-us-card p {
+    font-size: 12px;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .join-us-block-div-cards {
+        width: 650px;
+    }
+
+    .join-us-block-div-cards .join-us-card {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .join-us-block-div-cards .join-us-card {
+        flex: 1 1 100%;
+    }
+
+    .join-us-block-div-cards {
+        margin: 1rem auto;
+        width: 315px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .join-us-access h1 {
+        font-size: 18px;
+    }
+
+    .join-us-access p {
+        font-size: 12px;
+    }
+}
+
+
+/* =============== Start Section Travel Around Europe =============== */
+.join-us-travel-europe {
+    padding: 0;
+    max-width: 1200px;
+    margin: 2rem auto 1rem;
+    /* border-left: solid 1px var(--color-ocean-deep); */
+    /* border-right: solid 1px var(--color-ocean-deep); */
+}
+
+.join-us-travel-europe-title {
+    background-color: var(--color-ocean-deep);
+}
+
+.join-us-travel-europe-title h1 {
+    text-align: center;
+    font-family: var(--fonte-titulos);
+    color: var(--color-water-light);
+}
+
+.join-us-travel-europe-title-trol {
+    cursor: default;
+    background-color: var(--color-ocean-deep);
+}
+
+.join-us-travel-europe-title-trol h1 {
+    text-align: center;
+    font-family: var(--fonte-titulos);
+    color: var(--color-ocean-deep);
+    transition: 1s;
+}
+
+.join-us-travel-europe-title-trol h1:hover {
+    color: var(--color-water-light);
+}
+
+.join-us-travel-europe-images {
+    display: flex;
+    width: auto;
+    margin: 40px 60px;
+}
+
+.join-us-travel-europe-images img {
+    width: 50%;
+}
+
+.join-us-pins-in-europe {
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    position: relative;
+}
+
+.join-us-pins-in-europe img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.join-us-pins {
+    position: absolute;
+    width: 88%;
+    height: 90%;
+}
+
+.join-us-pins p {
+    color: var(--color-ocean-deep);
+    font-size: 14px;
+}
+
+.join-us-pin-1 {
+    position: absolute;
+    bottom: 15%;
+    right: 72%;
+}
+
+.join-us-pin-2 {
+    position: absolute;
+    bottom: 41%;
+    right: 56%;
+}
+
+.join-us-pin-3 {
+    position: absolute;
+    bottom: 11.5%;
+    right: 12%;
+}
+
+.join-us-pin-4 {
+    position: absolute;
+    bottom: 27%;
+    right: 55%;
+}
+
+.join-us-pin-5 {
+    position: absolute;
+    bottom: 26%;
+    right: 50%;
+}
+
+.join-us-pins img {
+    width: 40px;
+}
+
+.join-us-carousel {
+    border-radius: 20px;
+    position: relative;
+    width: 50%;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.join-us-carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.join-us-carousel-images img {
+    width: 100%;
+    display: none;
+}
+
+.join-us-carousel-images img.active {
+    display: block;
+}
+
+.join-us-carousel-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.join-us-carousel-nav span {
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    user-select: none;
+    padding: 0 20px;
+}
+
+.join-us-carousel-nav span:hover {
+    color: var(--color-ocean-deep);
+    transition: 0.2s;
+}
+
+.join-us-carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.join-us-carousel-indicators .join-us-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.join-us-carousel-indicators .join-us-dot.active {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: var(--color-ocean-deep);
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .join-us-pins img {
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .join-us-pins img {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+    .join-us-travel-europe-title-trol h1,
+    .join-us-travel-europe-title h1 {
+        font-size: 21px;
+    }
+
+    .join-us-pins p {
+        font-size: 12px;
+    }
+
+    .join-us-pins img {
+        width: 25px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+
+    .join-us-travel-europe-title-trol h1,
+    .join-us-travel-europe-title h1 {
+        font-size: 18px;
+    }
+
+    .join-us-pins p {
+        font-size: 10px;
+    }
+
+    .join-us-pins img {
+        width: 20px;
+    }
+
+    .join-us-travel-europe-images {
+        margin: 20px 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .join-us-travel-europe-images {
+        margin: 10px 15px;
+    }
+}

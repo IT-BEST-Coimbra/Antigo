@@ -1,0 +1,413 @@
+/* Reseta margens, padding, box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* --- HEADER --- */
+.header {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  gap: 1rem;
+}
+.nav-option {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+/* SEÇÃO: WHO WE ARE? (degradê) */
+.section-about {
+  background: linear-gradient(
+    180deg,
+    #b3f2fe 0%,
+    #9fe7f5 51.07%,
+    #429ebd 100%
+  );
+  padding: 40px 5%;
+  color: #000;
+}
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.about-text {
+  flex: 1 1 400px;
+  min-width: 300px;
+}
+.about-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.about-text p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.about-text h2 {
+  font-size: 2rem;
+  margin: 30px 0 15px;
+  font-weight: 900;
+}
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.stats-box {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  min-width: 120px;
+}
+.stats-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.stats-label {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.about-image {
+  flex: 1 1 400px;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* OUR VALUES */
+.section-values {
+  background-color: #fff;
+  padding: 40px 5%;
+  text-align: center;
+}
+.section-values h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+.values-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.value-item {
+  text-align: center;
+  width: 120px; /* Ajuste conforme quiser */
+}
+.value-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%; /* ou mude p/ 15px se quiser quadrado com cantos arredondados */
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px #00000030;
+}
+.value-item p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* OUR VISION & MISSION, lado a lado, mesmo degradê */
+.section-vision-mission {
+  background: linear-gradient(
+    180deg,
+    #b3f2fe 0%,
+    #9fe7f5 51.07%,
+    #429ebd 100%
+  );
+  padding: 40px 5%;
+  color: #000;
+  text-align: center;
+}
+.vision-mission-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.vision-box,
+.mission-box {
+  flex: 1 1 400px;
+  min-width: 300px;
+  background-color: #ffffffaa; /* leve translucidez */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.vision-box h2,
+.mission-box h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+.vision-box p,
+.mission-box p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* OUR TEAM */
+.section-team {
+  background: #f9f9f9;
+  padding: 60px 5%;
+  text-align: center;
+}
+.section-team h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.team-quote {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+.sub-team-title {
+  font-size: 1.5rem;
+  margin: 30px 0 20px;
+  font-weight: 700;
+  color: #333;
+}
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.team-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #00000020;
+  padding: 20px;
+  text-align: center;
+  width: 180px; /* Ajuste conforme quiser */
+}
+/* Foto quadrada com cantos arredondados */
+.team-photo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 15px auto; /* centralizar */
+  object-fit: cover;        /* recorta a imagem p/ ocupar 150x150 */
+  border-radius: 15px;      /* bordas arredondadas */
+}
+.team-info .team-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.team-info .team-role {
+  display: block;
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* Newsletter */
+
+/* Removendo margens/paddings adicionais nas sections */
+.section-newsletter,
+.section-contact {
+  margin: 0;    /* elimina espaço extra entre seções */
+  padding: 0;   /* idem */
+  position: relative;
+}
+
+/* Containers que abrigam a imagem e o formulário */
+.newsletter-bg-container,
+.contact-bg-container {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  /* Se quiser menos ou mais altura, ajuste aqui */
+}
+
+/* As imagens ocupam 100% na horizontal */
+.newsletter-bg-image,
+.contact-bg-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* --- POSICIONAMENTO DOS FORMULÁRIOS --- */
+
+/* Newsletter CENTRALIZADA */
+.newsletter-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* Centraliza no meio do container */
+  transform: translate(-50%, -50%);
+  width: 300px; /* Ajuste se quiser maior/menor */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.newsletter-input {
+  flex: 1 1 auto;
+  min-width: 150px;
+  padding: 10px;
+}
+.newsletter-button {
+  padding: 10px 20px;
+  background-color: #053f5c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.newsletter-button:hover {
+  opacity: 0.9;
+}
+
+/* Contact US mais à ESQUERDA */
+.contact-content {
+  position: absolute;
+  top: 50%;
+  /* Deixe left ~ 10% se quiser bem à esquerda, ou 20% se quiser 
+     um pouco mais ao centro */
+  left: 10%;
+  transform: translate(0, -50%); /* não arrastamos no eixo X */
+  width: 350px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.contact-content h2 {
+  margin-bottom: 10px;
+}
+.contact-content p {
+  margin-bottom: 15px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+}
+.contact-form textarea {
+  height: 60px;
+}
+.contact-location {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Responsivo (mobile) */
+@media (max-width: 768px) {
+  .newsletter-content,
+  .contact-content {
+    position: static;
+    transform: none;
+    width: auto; /* Usa toda a largura */
+    margin: 20px;
+  }
+}
+
+
+
+/* FOOTER */
+.footer {
+  padding: 2rem 3rem;
+  background-color: #ffffff;
+  font-size: 12px;
+  color: #333;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.footer-up img {
+  height: 60px;
+}
+.footer-contacts {
+  font-size: 14px;
+}
+.contacts-bold {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.footer-contacts ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.footer-contacts li a {
+  color: #333;
+  text-decoration: none;
+}
+.footer-contacts li a:hover {
+  text-decoration: underline;
+}
+.footer-down {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}
+
+/* RESPONSIVIDADE BÁSICA */
+@media (max-width: 768px) {
+  .newsletter-wrapper,
+  .contact-wrapper {
+    flex-direction: column;
+    text-align: center; /* Em telas pequenas, pode centralizar tudo */
+  }
+  .newsletter-content,
+  .contact-content {
+    align-items: center;
+  }
+  .newsletter-form,
+  .contact-form {
+    flex-direction: column;
+    width: 100%;
+  }
+}

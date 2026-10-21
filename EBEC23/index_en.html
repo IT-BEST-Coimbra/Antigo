@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBEC Challenge Coimbra 2023</title>
+    <link rel="icon" href="img/logos/EBEC_Cogwheel.svg">
+
+    <!-- Import Styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- Codigo CSS - GetBootstrap -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet"> <!-- Open Sans -->
+</head>
+<body>
+    <!-- =================== PRELOADER =================== -->
+    <div class = "loader">
+        <img src="img/logos/EBEC_Challenge_National&Regional_laranja-01.png" alt="Logótipo da EBEC Coimbra."> 
+        <div class="spinner-border text-preloader" role="status"></div>
+    </div>
+    <!-- ==================== STARTING SCREEN ======================= -->
+    <div class="main-container">
+        <!-- ==================== START HEADER ======================= -->
+        <a id="header"></a>
+        <header class="header">
+            <a class="logo-header" href="#header">
+                <img src="img/logos/EBEC_Challenge_National&Regional_laranja-01.png" alt="EBEC_Challenge_National&Regional_laranja" id="header_logo">
+            </a>
+            <div class="options">
+                <nav class="nav-bar">
+                    <a class="nav-option" href="#categorias">Categories</a>
+                    <a class="nav-option" href="#schedule">Schedule</a>
+                    <!--<a class="nav-option" href="#jury">Júri</a>-->
+                    <!--<a class="nav-option" href="#partners">Parceiros</a>-->
+                    <a class="nav-option" href="#faq">FAQ</a>
+                    <a class="nav-option dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Documents</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown01">
+                        <li><a class="dropdown-item" href="https://drive.google.com/file/d/12vUuLsBGgBRD0qytKnPI4MXySD_wrwx1/view?usp=sharing" target="_blank">Survival Guide</a></li>
+                        <li><a class="dropdown-item" href="https://drive.google.com/file/d/1PTraxPX5XU69eXcw0TDvXSgk1NuyQgfx/view?usp=sharing" target="_blank">Regulations</a></li>
+                        <li><a class="dropdown-item" href="https://drive.google.com/file/d/1L7kyrwkN4id3Fw52p923l0sH0IsXxXTm/view?usp=sharing" target="_blank">Policy and Privacy Terms</a></li>
+                    </ul>
+                </nav>
+                <div class="languages">
+                    <a id="pt" href="index.html"><img src="img/bandeiras/portugal.png" alt="Bandeira de Portugal"></a>
+                    <a id="en" href="#"><img src="img/bandeiras/reinoUnido.png" alt="Bandeira do Reino Unido"></a>
+                </div>
+                <a class="container-menu-nav">
+                    <div class="btn not-active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+        </header>
+        <div class="menu-navbar-phone">
+            <div class="options-phone">
+                <a class="nav-option nav-option2" href="#">Home</a>
+                <a class="nav-option nav-option2" href="#categorias">Categories</a>
+                <a class="nav-option nav-option2" href="#schedule">Schedule</a>
+                <!--<a class="nav-option nav-option2" href="#jury">Júri</a>
+                <a class="nav-option nav-option2" href="#partners">Parceiros</a>-->
+                <a class="nav-option nav-option2" href="#faq">FAQ</a>
+                <a class="nav-option dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Documentos</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown01">
+                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/12vUuLsBGgBRD0qytKnPI4MXySD_wrwx1/view?usp=sharing" target="_blank">Survival Guide</a></li>
+                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1PTraxPX5XU69eXcw0TDvXSgk1NuyQgfx/view?usp=sharing" target="_blank">Regulations</a></li>
+                    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1L7kyrwkN4id3Fw52p923l0sH0IsXxXTm/view?usp=sharing" target="_blank">Policy and Privacy Terms</a></li>
+                </ul>
+                <div class="languages-phone">
+                    <a id="pt" href="index.html"><img src="img/bandeiras/portugal.png" alt="Bandeira de Portugal"></a>
+                    <a id="en" href="#"><img src="img/bandeiras/reinoUnido.png" alt="Bandeira do Reino Unido"></a>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== END HEADER ======================= -->
+        <!-- ==================== START HOME PAGE ======================= -->
+        <section class="home-page">
+            <div class="home-page-background">
+                <div class="home-page-content-left">
+                    <div class="home-page-title">
+                        <div class="home-page-element">
+                            <div class="home-page-element-front">
+                                <div class="home-page-element-text">
+                                    <h1><strong>EBEC Challenge Coimbra 2023</strong></h1>
+                                    <p>Find your way</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-page-content-right">
+                    <div class="container-demo">
+                        <div class="container-demo-center">
+                            <h4 class="title-demo">Registration closes in:</h4>
+                            <div class="timer-demo">
+                                <div class="demo-card">
+                                    <div class="demo-line"></div>
+                                    <div class="demo-days">
+                                        <h1 class="demo-days-p"></h1>
+                                        <span>Days</span>
+                                    </div>
+                                </div>
+                                <div class="demo-card">
+                                    <div class="demo-line"></div>
+                                    <div class="demo-hours">
+                                        <h1 class="demo-hours-p"></h1>
+                                        <span>Hours</span>
+                                    </div>
+                                </div>
+                                <div class="demo-card">
+                                    <div class="demo-line"></div>
+                                    <div class="demo-minutes">
+                                        <h1 class="demo-minutes-p"></h1>
+                                        <span>Minutes</span>
+                                    </div>
+                                </div>
+                                <div class="demo-card">
+                                    <div class="demo-line"></div>
+                                    <div class="demo-seconds">
+                                        <h1 class="demo-seconds-p"></h1>
+                                        <span>Seconds</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://forms.gle/LkHpMXsn26XSeQuv9" target="_blank"><button class="button-home" title="Register now">Register now!</button></a>
+                    </div>
+                </div>
+                <div class="home-page-content-right-img">
+                    <img src="img/logos/BEST_Coimbra Logo.svg" alt="Simbolo do BEST">
+                </div>
+            </div>
+        </section>
+        <div class="button-top">
+            <button id="back-to-top" title="Voltar para a Home-Page"><div class="arrow"></div></button>
+        </div>
+        <!-- ==================== END HOME PAGE ======================= -->
+        <!-- ==================== START EBEC PYRAMID ======================= -->
+        <section class="pyramid">
+            <div class="pyramid-title">
+                <h1>An <mark class="orange">internacional</mark> competition</h1>
+            </div>
+            <div class="pyramid-container">
+                <div class= "pyramid-imagebox">
+                    <div class="pyramid-img1">
+                        <img src="img\icons\PyramidTop.png"  id="imgp1" alt="EBEC_Challenge_pyramid_top" onclick="pyramidresponse(1)">
+                    </div>
+                    <div class="pyramid-img2">
+                        <img src="img\icons\PyramidBottom.png"  id="imgp2" alt="EBEC_Challenge_pyramid_bottom" onclick="pyramidresponse(2)" >
+                    </div>
+                </div>
+                <div class="pyramid-text">
+                    <div class="pyramid-button">
+                        <button class="button1" id="button1" title="See EBEC Challenge Iberia" onclick="pyramidresponse(1)"> </button>
+                        <button class="button2" id="button2" title="See EBEC Challenge Coimbra" onclick="pyramidresponse(2)"></button>
+                    </div>
+                    <div class="pyramid-text1" id="text1">
+                        <p class="sbt1"><strong>EBEC Challenge Coimbra</strong></p>
+                        <p>A Local Round of EBEC is an event organised by a local BEST group and it is the first phase of the European BEST Engineering Competition (EBEC).<br>
+                            EBEC Coimbra will happen on the <span>2</span>, <span>3</span>, <span>4</span>, <span>5</span> and <span>8</span> of <span>March</span> 2023 and is characterized by being a 24-hour competition, completely free and open to all FCTUC students.</p>
+                    </div>
+                    <div class="pyramid-text2" id="text2">
+                        <p class="sbt2"><strong>EBEC Challenge Iberia</strong></p>
+                        <p>A National and Regional Round of EBEC is the event gathering the winning teams of the Local Rounds.
+                            <br>This year, EBEC Iberia will happen on the <span>5-8th</span> of <span>May</span> 2023 and it is characterised by being a 24h competition, completely free, and open to all the students of the Faculty of Sciences and Technology of the University of Coimbra.</p>
+                    </div>
+                </div>
+                    
+            </div>    
+        </section>
+        <!-- ==================== END EBEC PYRAMID ======================= -->
+        <!-- ==================== START CATEGORIAS ======================= -->
+        <a id="categorias"></a>
+        <section class="categorias">
+            <div class="categorias-container">
+                <div class="categorias-title">
+                    <h1>Categories</h1>
+                    <div class="line-title"></div>
+                </div>
+                <div class="cat-bloco">
+                    <div class="cat-background"></div>
+                    <div class="card cat-card">
+                        <h2>Case Study</h2>
+                        <p>Case Study is a theoretical problem-solving challenge that requires analysing, researching, deliberating, testing and presenting a solution that fits a real-case scenario based on realistic resources within a limited time.</p>
+                        <img src="img/categorias/3_CS.jpg" alt="Case Study">
+                    </div>
+                    <div class="card cat-card">
+                        <h2>Innovative Design</h2>
+                        <p>Innovative Design is a practical challenge, where competitors should combine their creativity and knowledge to develop new technological designs or improve upon existing ones. The project must have a technical, social, environmental and economic impact.</p>
+                        <img src="img/categorias/3_ID_C_P.png" alt="Innovative Design">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== END CATEGORIAS ======================= -->
+        <!-- ==================== START HORÁRIO ======================= -->
+        <a id="schedule"></a>
+        <section class="schedule">
+            <div class="margin-transparent1"></div>
+            <h1>Schedule</h1>
+            <div class="schedule-box">
+                <div class="img-box">
+                    <img src="img\schedule\schedule.png" alt="Schedule">
+                </div>
+                <!--
+                    <div class="button-box">
+                        <div class="button-div">
+                            <button class="my-button" onclick="openDropdownResponse()" id="my-button">
+                                <div class="plus">
+                                    <div class="plus-line plus-line-horizontal"></div>
+                                    <div class="plus-line plus-line-vertical"></div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown" id="dropdown">
+                            <div class="top-section">
+                                Google
+                            </div>
+                            <div class="bottom-section">
+                                Apple
+                            </div>       
+                        </div>  
+                    </div>
+                -->
+                
+            </div>
+            <div class="margin-transparent2"></div>
+        </section>
+        <!-- ==================== END HORÁRIO ======================= -->
+        <!-- ==================== START ANOS ANTERIORES ======================= -->
+        <!-- ==================== END ANOS ANTERIORES ======================= -->
+        <!-- ==================== START JURIS =======================
+        <section class="judges">
+            <div class="judges-title">
+                <h1>Conhece o nosso <mark class="azul"><strong>júri</strong></mark></h1>
+            </div>
+            <div class="case_study">
+                <h2 class="cst">Case Study</h2>
+                <div class="judgesct">
+                    <div class="judgepair1">    
+                        <div class="judge1">
+                            <img src="img\equipa\Barroso.jpg" style="flex: 1;width: 50%; margin-right: 5%; border-radius: 50%;">
+                            <p class="j1txt">Gonçalo Barroso<br>FCTUC</p>
+                        </div>
+                        <div class="judge2">
+                            <img src="img\equipa\Barroso.jpg" style="flex: 1;width: 50%; margin-right: 5%;border-radius: 50%;">
+                            <p class="j2txt">Gonçalo Barroso<br>FCTUC</p>
+                        </div>
+                    </div>  
+                    <div class="judgepair2"> 
+                        <div class="judge3">
+                            <img src="img\equipa\Barroso.jpg" style="flex: 1;width: 50%; margin-right: 5%;border-radius: 50%;">
+                            <p class="j3txt">Gonçalo Barroso<br>FCTUC</p>
+                        </div>
+                        <div class="judge4">
+                            <img src="img\equipa\Barroso.jpg" style="flex: 1;width: 50%;border-radius: 50%;">
+                            <p class="j4txt">Gonçalo Barroso<br>FCTUC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="innovative_design">
+                <h2 class="idt">Innovative Design</h2>
+                <div class="judgesid">
+                    <div class="judgepair3"> 
+                        <div class="judge5">
+                            <img src="img\equipa\Barroso.jpg" style="flex: 1;width: 50%; margin-right: 5%;border-radius: 50%;">
+                            <p class="j1txt">Gonçalo Barroso<br>FCTUC</p>
+                        </div>
+                        <div class="judge6">
+                            <img src="img\equipa\Barroso.jpg" style="flex: 1;width: 50%; margin-right: 5%;border-radius: 50%;">
+                            <p class="j1txt">Gonçalo Barroso<br>FCTUC</p>
+                        </div>
+                    </div> 
+                    <div class="judgepair4">
+                        <div class="judge7">
+                            <img src="img\equipa\Barroso.jpg" style="flex: 1;width: 50%; margin-right: 5%;border-radius: 50%;">
+                            <p class="j1txt">Gonçalo Barroso<br>FCTUC</p>
+                        </div>
+                        <div class="judge8">
+                            <img src="img\equipa\Barroso.jpg" style="flex: 1;width: 50%; border-radius: 50%;">
+                            <p class="j1txt">Gonçalo Barroso<br>FCTUC</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        ==================== END JURIS ======================= -->
+        <!-- ==================== START PARCEIROS ======================= 
+        <section class="partners-container">
+
+            <div class="title-partners">
+                <h1>MEET OUR PARTNERS</h1>
+                <h2>MAIN PARTNERS</h2>
+                <h3>INSTITUTIONAL PARTNERS</h3>
+                <h4>SPONSERS</h4>
+            </div>
+
+            <div class="circles-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </section>
+         ==================== END PARCEIROS ======================= -->
+        <!-- ==================== START FAQ ==================== -->
+        <a id="faq"></a>
+        <section class="faq">
+            <div class="faq-container">
+                <div class="faq-container-left">
+                    <div class="faq-container-align">
+                        <div class="faq-container-left-traco"></div>
+                        <h1>FAQ</h1>
+                        <p>Frequently</p>
+                        <p>Asked</p>
+                        <p>Questions</p>
+                    </div>
+                    <div class="faq-lines-left">
+                        <div class="faq-line-left-1"></div>
+                        <div class="faq-line-left-2"></div>
+                        <div class="faq-line-left-3"></div>
+                    </div>
+                </div>
+                <div class="faq-container-right">
+                    <div class="faq-lines">
+                        <div class="faq-line-right-1"></div>
+                        <div class="faq-line-right-2"></div>
+                        <div class="faq-line-right-3"></div>
+                    </div>
+                    
+                    <div class="faq-container-title">
+                        <h1>FAQ</h1>
+                        <div class="faq-container-line-title"></div>
+                    </div>
+                    <ul>
+                        <li onclick="openResponse('1')">
+                            <div class="tira"></div>
+                            <div class="question question-1">
+                                <div>Who can participate?</div>
+                                <a id="seta" class="seta-1"></a>
+                            </div>
+                        </li>
+                        <p class="response-1">All FCTUC students who are attending a bachelor's or master's degree can participate in the event.</p>
+                        <li onclick="openResponse('2')">
+                            <div class="tira"></div>
+                            <div class="question question-2">
+                                <div>How many elements make a team?</div>
+                                <a id="seta" class="seta-2"></a>
+                            </div>
+                        </li>
+                        <p class="response-2">A team is composed of 4 members (they can be from different degrees).</p>
+                        <li onclick="openResponse('3')">
+                            <div class="tira"></div>
+                            <div class="question question-3">
+                                <div>I don't have a team, can I apply anyway?</div>
+                                <a id="seta" class="seta-3"></a>
+                            </div>
+                        </li>
+                        <p class="response-3">Sure! If you decide to apply alone, the organization will join you with other people who have also registered alone or with an incomplete team.</p>
+                        <li onclick="openResponse('4')"> 
+                            <div class="tira"></div>
+                            <div class="question question-4">
+                                <div>Is the event paid?</div>
+                                <a id="seta" class="seta-4"></a>
+                            </div>
+                        </li>
+                        <p class="response-4">Participation in the event is completely free! You only have to pay a deposit of €5 (€20 per team) which will be returned at the end of the event, if all return conditions are met.
+                            To consult the conditions of return of the deposit, you can consult the Regulation.</p>
+                        <li onclick="openResponse('5')">
+                            <div class="tira"></div>
+                            <div class="question question-5">
+                                <div>What kind of knowledge do I need to have?</div>
+                                <a id="seta" class="seta-5"></a>
+                            </div>
+                        </li>
+                        <p class="response-5">No prior knowledge is required, you will have the opportunity to have workshops that give you the necessary knowledge!</p>
+                        <li onclick="openResponse('6')">
+                            <div class="tira"></div>
+                            <div class="question question-6">
+                                <div>Where am I going to sleep?</div>
+                                <a id="seta" class="seta-6"></a>
+                            </div>
+                        </li>
+                        <p class="response-6">The organization provides sleeping conditions, you just need to bring your sleeping bag!</p>
+                        <li onclick="openResponse('7')">
+                            <div class="tira"></div>
+                            <div class="question question-7">
+                                <div>Can I leave the event during the competition?</div>
+                                <a id="seta" class="seta-7"></a>
+                            </div>
+                        </li>
+                        <p class="response-7">No, you can't leave the venue during the 24 hours of the competition, except in justifiable situations. To do so, you have to be authorized by the Main Organizer.</p>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== END FAQ ==================== -->
+        <!-- ==================== START TEAM ======================= -->
+        <section class="team">
+            <div class="team-container">
+                <div class="title-team">
+                    <h1>CORE TEAM</h1>
+                </div>
+                <div class="team-line"></div>
+                <div class="team-box">
+                    <ul>
+                        <li>
+                            <img src="img\Equipa\Narciso.jpg" alt="Main Organizer">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Tiago Narciso</h4>
+                                        <span>Main Organizer</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/tiago-narciso/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                            
+                            
+                        </li>
+                        <li>
+                            <img src="img\Equipa\Eva Santos.jpg" alt="Secretary">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Eva Santos</h4>
+                                        <span>Secretary</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/eva-santos-82a419234/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img\Equipa\Clara Selas_2.jpg" alt="HR Responsible">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Clara Selas</h4>
+                                        <span>HR Responsible</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/clara-selas/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img\Equipa\Bea Alves.jpg" alt="CR Responsible">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Beatriz Alves</h4>
+                                        <span>CR Responsible</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/beatriz-alves-95432413b/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img\Equipa\Bea Pinto.png" alt="Marketing Responsible">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Beatriz Pinto</h4>
+                                        <span>Marketing Responsible</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/maria-beatriz-pinto-79a8bb154/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img\Equipa\Teresinha Iglésias_2.jpg" alt="Marketing Responsible">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Teresinha Iglésias</h4>
+                                        <span>Marketing Responsible</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/maria-teresa-igl%C3%A9sias-56a9b5231/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img\Equipa\Paulo Meira_2.jpg" alt="IT Responsible">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Paulo Meira</h4>
+                                        <span>IT Responsible</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/paulomeira/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img\Equipa\Joana Matos.jpg" alt="Participants Responsible">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Joana Matos</h4>
+                                        <span>Participants Responsible</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/joana-matos-661700264/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img\Equipa\AngelaCalhau.jpg" alt="Topic Responsible">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Ângela Calhau</h4>
+                                        <span>Topic Responsible</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/angela-calhau/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img\Equipa\Guilherme Ribeiro.jpg" alt="Logistics Responsible">
+                            <div class="team-desc">
+                                <div class="team-hover">
+                                    <div>
+                                        <h4 class="nome">Guilherme Ribeiro</h4>
+                                        <span>Logistics Responsible</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/guilherme-ribeiro-8148491a3/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        <!-- ==================== END TEAM ======================= -->
+         <!-- ==================== START BEST ======================= -->
+         <section class="best">
+            <div class="best-title">
+                <h1>Meet the <mark class="orange">Organization</mark></h1>
+            </div>
+            <div class="best-container">
+                <div class= "best-imagebox">
+                    <a class="best-button-box" href="https://best.deec.uc.pt" target="_blank">
+                        <div class="box">
+                            <p>Saiba mais</p>
+                        </div>
+                    </a>
+                    <div class="best-img1">
+                        <img src="img\best\fotobest_2.jpg" alt="BEST group">
+                    </div>
+                </div>
+                <div class="best-text1" id="text1">
+                    <h5><strong>BEST Coimbra</strong></h5>
+                    <p>BEST (Board of European Students of Technology) is a non-profit, non-political and non-governmental organisation whose main objective is to increase diversity by developing science and technology students across Europe.
+
+                        BEST Coimbra is the local BEST group of the University of Coimbra, active since 1992 at the Faculty of Sciences and Technology of the University of Coimbra (FCTUC). Throughout the academic year, it holds several events, such as engineering competitions, job fairs and workshops for FCTUC students, as well as BEST Courses, attended by students from all over Europe.</p>
+                </div>
+            </div>    
+        </section>
+        <!-- ==================== END BEST ======================= -->
+        <!-- ==================== START FOOTER ======================= -->
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-up">
+                    <div class="footer-up-left">
+                        <img src="img/logos/BEST_Coimbra Logo.svg" alt="BEST">
+                    </div>
+                    <div class="footer-up-right">
+                        <a href="https://www.instagram.com/bestcoimbra/" target="_blank"><img src="img/icons/instagram.png" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/BESTCoimbra" target="_blank"><img src="img/icons/facebook.png" alt="Facebook"></a>
+                        <a href="https://www.linkedin.com/company/best-coimbra/" target="_blank"><img src="img/icons/linkedin.png" alt="Linkdin"></a>
+                    </div>
+                </div>
+                <div class="footer-down">
+                    <div class="footer-line"></div>
+                    <p>© 2023 BEST Coimbra. All rights reserved</p>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== END FOOTER ======================= -->
+    </div>
+    <!-- ==================== END SCREEN ======================= -->
+</body>
+
+<!-- Loading Screen Code -->
+<script src="js/script.js"></script>
+<script src="js/contador.js"></script>
+<script src="js/vanilla.js"></script>
+<script>if (window.innerWidth > 1023){VanillaTilt.init(document.querySelectorAll(".card"));}</script>
+
+
+<!-- Bootstrap Code -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</html>
